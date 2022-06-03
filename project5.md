@@ -73,7 +73,15 @@ Exit MySQL
 
 ![alt text](./Images/exit%20database%206.JPG)
 
+Next step is to configure MySQL Server to allow connections from remote hosts by changing the bind-address from '127.0.0.1' to '0.0.0.0'. 
 
+Run the command to access & edit MySQL database server configuration file.
+
+<code>sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf</code>
+
+![alt text](./Images/configure%20MYSQL%20server%20to%20allow%20connections%20from%20remote%20host%207.JPG)
+
+![alt text](./Images/sudo%20vi%20etc%208.JPG)
 
 
 
