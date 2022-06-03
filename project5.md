@@ -83,7 +83,28 @@ Run the command to access & edit MySQL database server configuration file.
 
 ![alt text](./Images/sudo%20vi%20etc%208.JPG)
 
+Restart MySQL service by running the command
 
+<code>sudo systemctl restart mysql</code>
+ 
+![alt text](./Images/restart%20mysql%209.JPG)
+
+I will attempt to connect to MySQL server Database engine from the MySQL client Linux server, by using mysql utility.
+
+On the MySQL client linux server, run this command:
+
+<code>sudo mysql -u remote_user -h 172.31.43.109 -p</code>
+
+*Command explained*
+
+-u remote_user(This is the user I created)
+
+-h 172.31.43.109(My MySQL Server IP address)
+
+-p(This will prompt for a password to connect)
+
+
+![alt text](./Images/connecting%20from%20mysql%20client%20to%20mysql%20server%2010.JPG)
 
 
 
