@@ -1,7 +1,7 @@
 ## IMPLEMENT A CLIENT SERVER ARCHITECTURE USING MYSQL DATABASE MANAGEMENT SYSTEM (DBMS).
 
 
-This project I would be demonstrating how a Linux server(client) connects to a Linux Database (Server) using MySQL Relational Database Management System (RDBMS).
+This project I would be demonstrating how a Linux server(client) connects to a Server Linux Database using MySQL Relational Database Management System (RDBMS).
 
 First I'm going to create two Linux-based virtual servers (EC2 instances in AWS)
 
@@ -105,6 +105,18 @@ On the MySQL client linux server, run this command:
 
 
 ![alt text](./Images/connecting%20from%20mysql%20client%20to%20mysql%20server%2010.JPG)
+
+Successfully connected to MySQL Server from MySQL client Linux Server using mysql utility.
+
+Now I'm going to run SQL query command
+
+<code>Show database ;</code>
+
+![alt text](./Images/show%20database%2011.JPG)
+
+I have successfully deployed a fully functioning MySQL Client to Server setup.
+
+END...
 
 
 
