@@ -23,7 +23,7 @@ Which is *172.31.44.68*
 
 ![alt text](./Images/Inbound%20security%20group%202.JPG)
 
-We will need to create a Database & a user account to access database, once I have established a connection between MySQL client and MySQL Server.
+I will need to create a Database & a remote user to access database, once I have established a connection between MySQL client and MySQL Server.
 
 I have already installed MySQL, I will need to make it secured. I'm going to run the MySQL secure installation command.
 
